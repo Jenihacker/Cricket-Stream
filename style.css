@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(180, 12%, 8%);
+    background-image: url("https://raw.githubusercontent.com/Gedipey/streams/main/background-pattern-15.jpg");
+}
+
+@media (max-width: 580px) {
+body {
+    display: block;
+}
+#fr {
+    width:98%;
+}
+
+.menu-c{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#btns {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    font-size: 16px;
+}
+
+#bl1 {
+    position: absolute;
+    top:0.5%;
+    left: 85%;
+}
+
+}
+
+#btns {
+    display: flex;
+    flex-direction: column;
+}
+
+#bl1 {
+    display: none;
+}
+
+.menu-c {
+    display: flex;
+    justify-content: center;
+}
+
+i {
+    margin:10px;
+    transform: scale(2);
+}
+
+.btn {
+    background-color: rgb(84 226 28);
+    padding: 10px;
+    font-weight: bold;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid #000;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+h1 {
+    background-color: rgb(0 255 12);
+    margin-bottom: 4%;
+}
+h2 {
+    font-weight: bold;
+    text-align: center;
+    color: #00ffb7;
+}
+#disp {
+    backdrop-filter: 10px ;
+    width: 100%;
+}
+.channels {
+    background: hsl(79, 63%, 50%);
+    background-image: repeating-linear-gradient(60deg, #29323c 0%, #485563 100%);
+    background-image: repeating-linear-gradient(45deg, #52677f 0%, #10171c 100%);
+    display: flex;
+    flex-direction: column;
+    padding: 0 1.563rem;
+}
+
+
+#fr {
+    border-radius: 20px;
+    outline: 5px solid #0ABFBC;
+    animation: anime 10s ease infinite;
+}
+
+@keyframes anime {
+0% {
+outline-color: rgb(123, 0, 245);
+border-color: rgb(123, 0, 245);
+}
+10% {
+border-color: rgb(0, 0, 255);
+outline-color: rgb(0, 0, 255);
+}
+20% {
+border-color: rgb(0, 191, 255);
+outline-color: rgb(0, 191, 255);
+}
+30% {
+border-color: rgb(0, 255, 0);
+outline-color: rgb(0, 255, 0);
+}
+40% {
+border-color: yellow;
+outline-color: yellow;
+}
+50% {
+border-color: orangered;
+outline-color: orangered;
+}
+60% {
+border-color: yellow;
+outline-color: yellow;
+}
+70% {
+border-color: rgb(0, 255, 0);
+outline-color: rgb(0, 255, 0);
+}
+80% {
+border-color: rgb(0, 191, 255);
+outline-color: rgb(0, 191, 255);
+}
+90% {
+border-color: rgb(0, 0, 255);
+outline-color: rgb(0, 0, 255);
+}
+100% {
+border-color: rgb(123, 0, 245);
+outline-color: rgb(123, 0, 245);
+}
+}
+
+@media (hover: hover) {
+    .btn:hover {
+        background-color: rgb(255, 111, 0);
+        transform: rotate(5deg);
+    }
+}
+
+@media (hover: none) {
+    
+}
