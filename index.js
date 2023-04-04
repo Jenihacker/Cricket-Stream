@@ -39,4 +39,6 @@ let channels={
 const loadchannel = (val) => {
     document.getElementById('heads').innerHTML = val;
     document.getElementById('fr').src = channels[val];
+    document.getElementById('btns').style.display = 'none';
+    document.getElementById('menu_btn').innerHTML = String.raw`<img src='https://raw.githubusercontent.com/Gedipey/streams/main/134216_menu_lines_hamburger_icon.svg' alt='menu'>`;
 }
