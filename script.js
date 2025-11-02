@@ -25,15 +25,15 @@ window.addEventListener('load',wind_size);
 window.addEventListener('resize',wind_size);
 
 let channels={
-    "Star Sports" : "https://stream.crichd.vip/update/star.php",
-    "Star Sports Hindi" : "https://stream.crichd.vip/update/star1hi.php",
-    "Sky Sports" : "https://stream.crichd.vip/update/skys2.php",
+    "Star Sports" : "https://cdn.dadocric.st/embed2.php?id=starsp",
+    "Star Sports Hindi" : "https://cdn.dadocric.st/embed2.php?id=starsp3",
+    "Sky Sports" : "https://cdn.dadocric.st/embed2.php?id=crich2",
     "Astro Cricket" : "https://crichdplayer.xyz/embed2.php?id=astrocric",
-    "Willow Cricket" : "https://stream.crichd.vip/update/willowcricket.php",
+    "Willow Cricket" : "https://cdn.dadocric.st/embed2.php?id=willow",
     "PTV Sports" : "https://stream.crichd.vip/update/ptv.php",
-    "SuperSports Cricket" : "https://stream.crichd.vip/update/sscricket.php",
-    "Fox Sports" : "https://stream.crichd.vip/update/fox501.php",
-    "Ten Sports" : "https://stream.crichd.vip/update/tensp.php"
+    "SuperSports Cricket" : "https://cdn.dadocric.st/embed2.php?id=osncric",
+    "Fox Sports" : "https://cdn.dadocric.st/embed2.php?id=fox501",
+    "Ten Sports" : "https://cdn.dadocric.st/embed2.php?id=tensp"
 };
 
 const loadchannel = (val) => {
@@ -43,3 +43,4 @@ const loadchannel = (val) => {
         document.getElementById('btns').style.display = 'none';
         document.getElementById('menu_btn').innerHTML = String.raw`<img src='https://raw.githubusercontent.com/Gedipey/streams/main/134216_menu_lines_hamburger_icon.svg' alt='menu'>`;
 }
+
