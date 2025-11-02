@@ -24,16 +24,18 @@ const wind_size = () =>  {
 window.addEventListener('load',wind_size);
 window.addEventListener('resize',wind_size);
 
-let channels={
-    "Star Sports" : "https://cdn.dadocric.st/embed2.php?id=starsp",
-    "Star Sports Hindi" : "https://cdn.dadocric.st/embed2.php?id=starsp3",
-    "Sky Sports" : "https://cdn.dadocric.st/embed2.php?id=crich2",
-    "Astro Cricket" : "https://crichdplayer.xyz/embed2.php?id=astrocric",
-    "Willow Cricket" : "https://cdn.dadocric.st/embed2.php?id=willow",
-    "PTV Sports" : "https://stream.crichd.vip/update/ptv.php",
-    "SuperSports Cricket" : "https://cdn.dadocric.st/embed2.php?id=osncric",
-    "Fox Sports" : "https://cdn.dadocric.st/embed2.php?id=fox501",
-    "Ten Sports" : "https://cdn.dadocric.st/embed2.php?id=tensp"
+let channels = {
+  "Star Sports": "https://cdn.dadocric.st/embed2.php?id=starsp",
+  "Star Sports 2": "https://cdn.dadocric.st/embed2.php?id=starsp2",
+  "Star Sports Hindi": "https://cdn.dadocric.st/embed2.php?id=starsp3",
+  "Sky Sports": "https://cdn.dadocric.st/embed2.php?id=crich2",
+  "Astro Cricket": "https://crichdplayer.xyz/embed2.php?id=astrocric",
+  "Willow Cricket": "https://cdn.dadocric.st/embed2.php?id=willow",
+  "PTV Sports": "https://cdn.dadocric.st/embed2.php?id=ptvsp",
+  "SuperSports Cricket": "https://cdn.dadocric.st/embed2.php?id=osncric",
+  "Fox Sports": "https://cdn.dadocric.st/embed2.php?id=fox501",
+  "Ten Sports": "https://cdn.dadocric.st/embed2.php?id=tensp",
+  "Sony Sports 1": "https://cdn.dadocric.st/embed2.php?id=ten1",
 };
 
 const loadchannel = (val) => {
